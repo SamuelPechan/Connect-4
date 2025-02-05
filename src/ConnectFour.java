@@ -84,7 +84,7 @@ public class ConnectFour {
             }
         }
         // diagonal bottom left to top right win
-        for (int r = 0; r < row - 3; r++) {
+        for (int r = 0; r < row - 4; r++) {
             for (int c = 0; c < column - 3; c++) {
                 if (gameBoard[r][c] != 0 &&
                         gameBoard[r][c] == gameBoard[r + 1][c + 1] &&
